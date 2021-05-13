@@ -12,6 +12,8 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
+	    <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<cucumber-junit-version>6.10.1</cucumber-junit-version>
 		<cucumber-java-version>5.7.0</cucumber-java-version>
@@ -20,6 +22,7 @@
 		<log4j-version>1.2.17</log4j-version>
 		<testng-version>7.4.0</testng-version>
 		<maven-cucumber-reporting-version>5.5.0</maven-cucumber-reporting-version>
+		
 	</properties>
 
 	<dependencies>
