@@ -9,7 +9,6 @@ import static org.junit.Assert.assertEquals;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import org.testng.Assert;
 import com.freenow.ste.cc.pojo.Comment;
 import com.freenow.ste.cc.pojo.Post;
 import com.freenow.ste.cc.pojo.UserDetail;
@@ -59,7 +58,7 @@ public class UserBlogStep extends Utils {
 
 		Log.info("Verify user should not be null and should be  alphabets");
 		if ((userName == null) &&(userName.equals(""))  && (!userName.matches("^[a-zA-Z]*$"))) {
-			Assert.fail();
+			
 			Log.error("Username is null or not an alphabet ");
 		}
 
