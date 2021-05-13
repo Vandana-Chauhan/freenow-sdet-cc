@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/java/com/freenow/ste/cc/features", glue = {
-		"com/freenow/ste/cc/step/definations" }, plugin = "json:target/jsonReports/free-nowTestReport.json")
+		"com/freenow/ste/cc/step/definations" }, plugin = "json:target/freenowTestReport.json")
 public class TestRunner {
 
 }
