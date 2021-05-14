@@ -14,8 +14,10 @@ section are in the proper format.
 
 Solution:
 Please read all the assumptions.
+
 #Assumptions:
-  #In comments the name appears a title but have not automated it as I do not no the "Names"  filed  checks in comment.
+
+
   #API response should be "No user Found".If user does not exist but it  is empty now. So i have asserted with empty response.
   #API response should be "No Post Found".If user is new but it  is empty now.So i have asserted with empty response.
   #API response should be "No Commnets  Found".If Post is new but it  is empty now.So i have asserted with empty response.
@@ -24,6 +26,9 @@ Please read all the assumptions.
   #Posts cannot not have same title
   #Generally search field should accept user name without caps lock check.As of now its not accepting caps lock except for first letter.
   
+  I have validated the comments for the Posts made by a specific usernamed“​Samantha”​
+Solution :In comments the name appears as a title. I have not automated it as I do not no the "Names"  filed lenght  checks .
+
  Process:
  1)Searched a user : 
    a)User not found.
