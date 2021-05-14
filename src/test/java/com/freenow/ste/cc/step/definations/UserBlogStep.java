@@ -30,7 +30,7 @@ public class UserBlogStep extends Utils {
 	HashMap<String, Comment[]> allComments;
 
 	@Given("GetUser payload is provided with {string}.")
-	public void getuser_payload_is_provided_with(String username) throws IOException {
+	public void getuser_payload_is_provided_with(String username){
 		Log.info("Starting the scenario");
 
 		Log.info("Creating request with query param");
@@ -40,7 +40,7 @@ public class UserBlogStep extends Utils {
 	}
 
 	@When("User calls {string} to search")
-	public void user_calls_to_search(String resourcepath) throws IOException {
+	public void user_calls_to_search(String resourcepath) {
 
 		Log.info("Getting the resource path from enum ResourcePath");
 		ResourcePath resource = ResourcePath.valueOf(resourcepath);
@@ -85,7 +85,7 @@ public class UserBlogStep extends Utils {
 	}
 
 	@Given("User payload is provided with {string}.")
-	public void user_payload_is_provided_with(String username) throws IOException {
+	public void user_payload_is_provided_with(String username){
 
 		Log.info("Creating  payload for  Api using getuser_payload method ");
 		getuser_payload_is_provided_with(username);
@@ -105,7 +105,7 @@ public class UserBlogStep extends Utils {
 	}
 
 	@Then("I set the post request")
-	public void i_set_the_post_request() throws IOException {
+	public void i_set_the_post_request(){
 
 		Log.info("Getting userId from userDetails  APIResponse using pojo class ");
 		userDetails = response.as(UserDetail[].class);
@@ -138,7 +138,7 @@ public class UserBlogStep extends Utils {
 	}
 
 	@When("User calls {string} to search comments")
-	public void user_calls_to_search_comments(String resourcepath) throws IOException {
+	public void user_calls_to_search_comments(String resourcepath){
 
 		Log.info("Creating a Hash Map to store the comments related to the Posts Id ");
 		allComments = new HashMap<String, Comment[]>();
@@ -192,7 +192,7 @@ public class UserBlogStep extends Utils {
 	}
 
 	@Given("Post payload is provided with {string}.")
-	public void post_payload_is_provided_with(String UserName) throws IOException {
+	public void post_payload_is_provided_with(String UserName) {
 		Log.info("Creating post resquest");
 
 		Log.info("Am sending hard coded  PostId as i do not have any user with Zero posts");
@@ -210,7 +210,7 @@ public class UserBlogStep extends Utils {
 	}
 
 	@When("User calls {string} to search comments for new user")
-	public void user_calls_to_search_comments_for_new_user(String resourcepath) throws IOException {
+	public void user_calls_to_search_comments_for_new_user(String resourcepath) {
 		Log.info("Getting comments from  api response using pojo class ");
 		resquestSpec = getRequestSpec("postId", "101");
 		ResourcePath resource = ResourcePath.valueOf(resourcepath);

@@ -1,6 +1,7 @@
 package com.freenow.ste.cc.resources;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import static io.restassured.RestAssured.*;
@@ -14,7 +15,7 @@ public class Utils {
 	private RequestSpecification resquestSpec;
 	private Response response;
 	
-	public RequestSpecification requestSpecification() throws IOException {
+	public RequestSpecification requestSpecification()  {
 
 		if (request == null) {
 			
@@ -27,11 +28,22 @@ public class Utils {
 		return request;
 	}
 
-	public static String getGlobalvalue(String key) throws IOException {
+	public static String getGlobalvalue(String key) {
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream(
-				"src/test/resources/global.properties");
-		prop.load(fis);
+		FileInputStream fis;
+		try {
+			fis = new FileInputStream(
+					"src/test/resources/global.properties");
+			
+			prop.load(fis);
+		} catch (FileNotFoundException e) {
+		
+			e.printStackTrace();
+		} catch (IOException e) {
+		
+			e.printStackTrace();
+		}
+		
 
 		return prop.getProperty(key);
 
@@ -50,7 +62,7 @@ public class Utils {
 	 * 
 	 * @throws IOException
 	 */
-	public RequestSpecification getRequestSpec(String Key, String value) throws IOException {
+	public RequestSpecification getRequestSpec(String Key, String value){
 		resquestSpec = given().spec(requestSpecification()).queryParam(Key, value).log().all();
 
 		return resquestSpec;
@@ -63,7 +75,7 @@ public class Utils {
 	 * 
 	 * @throws IOException
 	 */
-	public Response getResponse(RequestSpecification resquestSpec, ResourcePath resource) throws IOException {
+	public Response getResponse(RequestSpecification resquestSpec, ResourcePath resource) {
 		response = resquestSpec.when().get(resource.getResource()).then().log().all().extract().response();
 
 		return response;
