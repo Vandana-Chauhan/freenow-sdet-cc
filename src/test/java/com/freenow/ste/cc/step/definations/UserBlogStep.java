@@ -6,6 +6,7 @@ import io.cucumber.java.en.When;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -16,13 +17,10 @@ import com.freenow.ste.cc.resources.Log;
 import com.freenow.ste.cc.resources.ResourcePath;
 import com.freenow.ste.cc.resources.Utils;
 
-
-
-
 public class UserBlogStep extends Utils {
 
 	String userName;
-    RequestSpecification resquestSpec;
+	RequestSpecification resquestSpec;
 	Response response;
 	String value;
 	UserDetail[] userDetails;
@@ -56,11 +54,14 @@ public class UserBlogStep extends Utils {
 	@When("I verify the {string} should be an alphabet")
 	public void i_verify_the_should_be_an_alphabet(String string) {
 
+		Boolean flag = true;
 		Log.info("Verify user should not be null and should be  alphabets");
-		if ((userName == null) &&(userName.equals(""))  && (!userName.matches("^[a-zA-Z]*$"))) {
-			
+		if ((userName == null) && (userName.equals("")) && (!userName.matches("^[a-zA-Z]*$"))) {
+
+			flag = false;
 			Log.error("Username is null or not an alphabet ");
 		}
+		assertTrue("Username is null or not an alphabet", flag);
 
 	}
 
@@ -98,7 +99,7 @@ public class UserBlogStep extends Utils {
 		userDetails = response.as(UserDetail[].class);
 
 		value = userDetails[0].getId();
-		
+
 		assertEquals(userName, userDetails[0].getUsername());
 
 	}
