@@ -21,8 +21,8 @@
 		<jackson-databind-version>2.10.5.1</jackson-databind-version>
 		<log4j-version>1.2.17</log4j-version>
 		<testng-version>7.4.0</testng-version>
+		<maven-surefire-plugin>3.0.0-M5</maven-surefire-plugin>
 		<maven-cucumber-reporting-version>5.5.0</maven-cucumber-reporting-version>
-		
 	</properties>
 
 	<dependencies>
@@ -76,8 +76,12 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin}</version>
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
+					<!-- <includes>
+							<exclude>**/*Testrunner.java</exclude>
+							</includes> -->
 				</configuration>
 			</plugin>
 			<plugin>
@@ -93,6 +97,9 @@
 						</goals>
 						<configuration>
 							<projectName>cucumber-jvm-example</projectName>
+							
+							
+							
 							<!-- optional, per documentation set this to "true" to bypass generation 
 								of Cucumber Reports entirely, defaults to false if not specified -->
 							<skip>false</skip>
@@ -105,12 +112,12 @@
 								<param>**/*.json</param>
 							</jsonFiles>
 
-							<parallelTesting>false</parallelTesting>
+							<parallel>false</parallel>
 							<!-- optional, set true to group features by its Ids -->
-							<mergeFeaturesById>false</mergeFeaturesById>
+							<!-- <mergeFeaturesById>false</mergeFeaturesById> -->
 							<!-- optional, set true to get a final report with latest results 
 								of the same test from different test runs -->
-							<mergeFeaturesWithRetest>false</mergeFeaturesWithRetest>
+							<!-- <mergeFeaturesWithRetest>false</mergeFeaturesWithRetest> -->
 							<!-- optional, set true to fail build on test failures -->
 							<checkBuildResult>false</checkBuildResult>
 						</configuration>

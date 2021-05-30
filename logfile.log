@@ -1,0 +1,716 @@
+2021-05-28 18:20:12,045 INFO  [Log] Starting the scenario 
+2021-05-28 18:20:12,056 INFO  [Log] Creating request with query param 
+2021-05-28 18:20:12,876 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:12,883 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:14,850 INFO  [Log] Verify user should not be null and should be  alphabets 
+2021-05-28 18:20:14,859 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 18:20:14,870 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 18:20:15,436 INFO  [Log] Verifying that for invalid user search, result should be an empty array  
+2021-05-28 18:20:15,466 INFO  [Log] Creating  payload for  Api using getuser_payload method  
+2021-05-28 18:20:15,475 INFO  [Log] Starting the scenario 
+2021-05-28 18:20:15,481 INFO  [Log] Creating request with query param 
+2021-05-28 18:20:15,496 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:15,501 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:16,318 INFO  [Log] Verify user should not be null and should be  alphabets 
+2021-05-28 18:20:16,324 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 18:20:16,332 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 18:20:16,342 INFO  [Log] Getting userId from userDetails  APIResponse using pojo class  
+2021-05-28 18:20:16,350 INFO  [Log] Creating post resquest 
+2021-05-28 18:20:16,357 INFO  [Log] Getting the GetPost APIResponse 
+2021-05-28 18:20:16,363 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:16,372 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:17,211 INFO  [Log] Getting Posts for the given User using pojo class  
+2021-05-28 18:20:17,221 INFO  [Log] Verifying that all the  posts displayed are  written by the searched User  
+2021-05-28 18:20:17,227 INFO  [Log] Creating a Hash Map to store the comments related to the Posts Id  
+2021-05-28 18:20:17,233 INFO  [Log] Getting Posts for the given User using pojo class  
+2021-05-28 18:20:17,241 INFO  [Log] Adding comments to Map for all posts by a user through the Comment APT Request and response request  
+2021-05-28 18:20:17,248 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:17,252 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:18,104 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:18,108 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:19,019 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:19,031 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:19,871 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:19,875 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:20,706 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:20,710 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:21,580 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:21,583 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:22,426 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:22,429 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:23,263 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:23,267 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:24,120 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:24,123 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:24,959 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:24,963 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:25,764 INFO  [Log] Validating that the PostId in comments response is equal to the PostId sent in request 
+2021-05-28 18:20:25,767 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,775 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,779 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,782 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,787 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,792 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,796 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,799 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,802 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,805 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,808 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,814 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,818 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,822 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,829 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,834 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,842 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,845 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,847 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,850 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,853 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,865 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,868 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,874 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,876 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,879 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,882 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,885 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,888 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,891 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,896 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,901 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,909 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,914 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,920 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,923 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,926 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,928 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,932 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,941 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,951 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,979 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,983 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,995 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:25,999 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:26,001 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:26,011 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:26,014 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:26,017 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:26,026 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 18:20:26,029 INFO  [Log] Email format is correct for  Allen@richard.biz 
+2021-05-28 18:20:26,032 INFO  [Log] Email format is correct for  Nicholaus@mikayla.ca 
+2021-05-28 18:20:26,035 INFO  [Log] Email format is correct for  Kayla@susanna.org 
+2021-05-28 18:20:26,039 INFO  [Log] Email format is correct for  Gideon@amina.name 
+2021-05-28 18:20:26,043 INFO  [Log] Email format is correct for  Cassidy@maribel.io 
+2021-05-28 18:20:26,046 INFO  [Log] Email format is correct for  Stefan.Crist@duane.ca 
+2021-05-28 18:20:26,049 INFO  [Log] Email format is correct for  Aniyah.Ortiz@monte.me 
+2021-05-28 18:20:26,051 INFO  [Log] Email format is correct for  Laverna@rico.biz 
+2021-05-28 18:20:26,066 INFO  [Log] Email format is correct for  Derek@hildegard.net 
+2021-05-28 18:20:26,072 INFO  [Log] Email format is correct for  Tyrell@abdullah.ca 
+2021-05-28 18:20:26,075 INFO  [Log] Email format is correct for  Reyes@hailey.name 
+2021-05-28 18:20:26,080 INFO  [Log] Email format is correct for  Danika.Dicki@mekhi.biz 
+2021-05-28 18:20:26,083 INFO  [Log] Email format is correct for  Alessandra.Nitzsche@stephania.us 
+2021-05-28 18:20:26,085 INFO  [Log] Email format is correct for  Matteo@marquis.net 
+2021-05-28 18:20:26,090 INFO  [Log] Email format is correct for  Joshua.Spinka@toby.io 
+2021-05-28 18:20:26,095 INFO  [Log] Email format is correct for  Annabelle@cole.com 
+2021-05-28 18:20:26,098 INFO  [Log] Email format is correct for  Kacey@jamal.info 
+2021-05-28 18:20:26,100 INFO  [Log] Email format is correct for  Mina@mallie.name 
+2021-05-28 18:20:26,104 INFO  [Log] Email format is correct for  Hudson.Blick@ruben.biz 
+2021-05-28 18:20:26,110 INFO  [Log] Email format is correct for  Domenic.Durgan@joaquin.name 
+2021-05-28 18:20:26,114 INFO  [Log] Email format is correct for  Alexie@alayna.org 
+2021-05-28 18:20:26,116 INFO  [Log] Email format is correct for  Haven_Barrows@brant.org 
+2021-05-28 18:20:26,118 INFO  [Log] Email format is correct for  Marianne@maximo.us 
+2021-05-28 18:20:26,121 INFO  [Log] Email format is correct for  Fanny@danial.com 
+2021-05-28 18:20:26,123 INFO  [Log] Email format is correct for  Trevion_Kuphal@bernice.name 
+2021-05-28 18:20:26,126 INFO  [Log] Email format is correct for  Emmet@guy.biz 
+2021-05-28 18:20:26,128 INFO  [Log] Email format is correct for  Megane.Fritsch@claude.name 
+2021-05-28 18:20:26,131 INFO  [Log] Email format is correct for  Amya@durward.ca 
+2021-05-28 18:20:26,150 INFO  [Log] Email format is correct for  Jasen_Rempel@willis.org 
+2021-05-28 18:20:26,157 INFO  [Log] Email format is correct for  Harmony@reggie.com 
+2021-05-28 18:20:26,164 INFO  [Log] Email format is correct for  Rosanna_Kunze@guy.net 
+2021-05-28 18:20:26,173 INFO  [Log] Email format is correct for  Ressie.Boehm@flossie.com 
+2021-05-28 18:20:26,179 INFO  [Log] Email format is correct for  Domenic.Wuckert@jazmyne.us 
+2021-05-28 18:20:26,182 INFO  [Log] Email format is correct for  Rhett.OKon@brian.info 
+2021-05-28 18:20:26,185 INFO  [Log] Email format is correct for  Mathias@richmond.info 
+2021-05-28 18:20:26,189 INFO  [Log] Email format is correct for  Ottis@lourdes.org 
+2021-05-28 18:20:26,192 INFO  [Log] Email format is correct for  Estel@newton.ca 
+2021-05-28 18:20:26,195 INFO  [Log] Email format is correct for  Bertha@erik.co.uk 
+2021-05-28 18:20:26,198 INFO  [Log] Email format is correct for  Joesph@matteo.info 
+2021-05-28 18:20:26,202 INFO  [Log] Email format is correct for  Alva@cassandre.net 
+2021-05-28 18:20:26,205 INFO  [Log] Email format is correct for  Vivienne@willis.org 
+2021-05-28 18:20:26,208 INFO  [Log] Email format is correct for  Angelita@aliza.me 
+2021-05-28 18:20:26,211 INFO  [Log] Email format is correct for  Timmothy_Okuneva@alyce.tv 
+2021-05-28 18:20:26,213 INFO  [Log] Email format is correct for  Moriah_Welch@richmond.org 
+2021-05-28 18:20:26,216 INFO  [Log] Email format is correct for  Ramiro_Kuhn@harmon.biz 
+2021-05-28 18:20:26,218 INFO  [Log] Email format is correct for  Lura@rod.tv 
+2021-05-28 18:20:26,221 INFO  [Log] Email format is correct for  Lottie.Zieme@ruben.us 
+2021-05-28 18:20:26,223 INFO  [Log] Email format is correct for  Winona_Price@jevon.me 
+2021-05-28 18:20:26,226 INFO  [Log] Email format is correct for  Gabriel@oceane.biz 
+2021-05-28 18:20:26,228 INFO  [Log] Email format is correct for  Adolph.Ondricka@mozell.co.uk 
+2021-05-28 18:20:26,238 INFO  [Log] Creating post resquest 
+2021-05-28 18:20:26,260 INFO  [Log] Am sending hard coded  PostId as i do not have any user with Zero posts 
+2021-05-28 18:20:26,266 INFO  [Log] Getting the GetPost APIResponse 
+2021-05-28 18:20:26,268 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:26,273 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:27,078 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 18:20:27,082 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 18:20:27,092 INFO  [Log] Verifying that for invalid user search, result should be an empty array  
+2021-05-28 18:20:27,102 INFO  [Log] Creating  payload for  Api using getuser_payload method  
+2021-05-28 18:20:27,106 INFO  [Log] Starting the scenario 
+2021-05-28 18:20:27,108 INFO  [Log] Creating request with query param 
+2021-05-28 18:20:27,113 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:27,116 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:27,435 INFO  [Log] Verify user should not be null and should be  alphabets 
+2021-05-28 18:20:27,439 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 18:20:27,442 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 18:20:27,449 INFO  [Log] Getting userId from userDetails  APIResponse using pojo class  
+2021-05-28 18:20:27,454 INFO  [Log] Creating post resquest 
+2021-05-28 18:20:27,465 INFO  [Log] Getting the GetPost APIResponse 
+2021-05-28 18:20:27,468 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 18:20:27,472 INFO  [Log] Extracting response using GET request 
+2021-05-28 18:20:27,799 INFO  [Log] Getting Posts for the given User using pojo class  
+2021-05-28 18:20:27,805 INFO  [Log] Verifying that all the  posts displayed are  written by the searched User  
+2021-05-28 18:20:27,810 INFO  [Log] Getting comments from  api response using pojo class  
+2021-05-28 18:20:28,644 INFO  [Log] Verifying that for invalid user search, result should be an empty array  
+2021-05-28 20:01:26,778 INFO  [Log] Starting the scenario 
+2021-05-28 20:01:26,788 INFO  [Log] Creating request with query param 
+2021-05-28 20:01:27,630 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:27,638 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:29,318 INFO  [Log] Verify user should not be null and should be  alphabets 
+2021-05-28 20:01:29,327 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 20:01:29,335 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 20:01:29,696 INFO  [Log] Verifying that for invalid user search, result should be an empty array  
+2021-05-28 20:01:29,711 INFO  [Log] Creating  payload for  Api using getuser_payload method  
+2021-05-28 20:01:29,717 INFO  [Log] Starting the scenario 
+2021-05-28 20:01:29,723 INFO  [Log] Creating request with query param 
+2021-05-28 20:01:29,732 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:29,739 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:30,481 INFO  [Log] Verify user should not be null and should be  alphabets 
+2021-05-28 20:01:30,487 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 20:01:30,494 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 20:01:30,504 INFO  [Log] Getting userId from userDetails  APIResponse using pojo class  
+2021-05-28 20:01:30,516 INFO  [Log] Creating post resquest 
+2021-05-28 20:01:30,525 INFO  [Log] Getting the GetPost APIResponse 
+2021-05-28 20:01:30,531 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:30,535 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:31,262 INFO  [Log] Getting Posts for the given User using pojo class  
+2021-05-28 20:01:31,270 INFO  [Log] Verifying that all the  posts displayed are  written by the searched User  
+2021-05-28 20:01:31,275 INFO  [Log] Creating a Hash Map to store the comments related to the Posts Id  
+2021-05-28 20:01:31,279 INFO  [Log] Getting Posts for the given User using pojo class  
+2021-05-28 20:01:31,287 INFO  [Log] Adding comments to Map for all posts by a user through the Comment APT Request and response request  
+2021-05-28 20:01:31,294 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:31,304 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:32,071 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:32,076 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:32,774 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:32,778 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:33,502 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:33,506 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:35,272 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:35,277 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:36,017 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:36,022 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:36,761 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:36,766 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:37,479 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:37,483 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:38,404 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:38,411 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:39,114 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:39,118 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:39,828 INFO  [Log] Validating that the PostId in comments response is equal to the PostId sent in request 
+2021-05-28 20:01:39,832 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,836 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,840 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,844 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,848 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,851 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,855 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,859 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,865 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,870 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,874 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,877 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,882 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,888 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,894 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,898 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,902 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,905 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,910 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,917 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,921 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,925 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,928 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,933 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,940 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,943 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,945 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,948 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,951 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,955 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,960 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,975 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,979 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,981 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,988 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,993 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,996 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:39,999 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:40,002 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:40,006 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:40,016 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:40,020 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:40,023 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:40,028 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:40,030 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:40,033 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:40,042 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:40,046 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:40,049 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:40,052 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 20:01:40,060 INFO  [Log] Email format is correct for  Allen@richard.biz 
+2021-05-28 20:01:40,066 INFO  [Log] Email format is correct for  Nicholaus@mikayla.ca 
+2021-05-28 20:01:40,068 INFO  [Log] Email format is correct for  Kayla@susanna.org 
+2021-05-28 20:01:40,071 INFO  [Log] Email format is correct for  Gideon@amina.name 
+2021-05-28 20:01:40,074 INFO  [Log] Email format is correct for  Cassidy@maribel.io 
+2021-05-28 20:01:40,077 INFO  [Log] Email format is correct for  Stefan.Crist@duane.ca 
+2021-05-28 20:01:40,081 INFO  [Log] Email format is correct for  Aniyah.Ortiz@monte.me 
+2021-05-28 20:01:40,085 INFO  [Log] Email format is correct for  Laverna@rico.biz 
+2021-05-28 20:01:40,093 INFO  [Log] Email format is correct for  Derek@hildegard.net 
+2021-05-28 20:01:40,096 INFO  [Log] Email format is correct for  Tyrell@abdullah.ca 
+2021-05-28 20:01:40,107 INFO  [Log] Email format is correct for  Reyes@hailey.name 
+2021-05-28 20:01:40,112 INFO  [Log] Email format is correct for  Danika.Dicki@mekhi.biz 
+2021-05-28 20:01:40,116 INFO  [Log] Email format is correct for  Alessandra.Nitzsche@stephania.us 
+2021-05-28 20:01:40,119 INFO  [Log] Email format is correct for  Matteo@marquis.net 
+2021-05-28 20:01:40,123 INFO  [Log] Email format is correct for  Joshua.Spinka@toby.io 
+2021-05-28 20:01:40,126 INFO  [Log] Email format is correct for  Annabelle@cole.com 
+2021-05-28 20:01:40,129 INFO  [Log] Email format is correct for  Kacey@jamal.info 
+2021-05-28 20:01:40,133 INFO  [Log] Email format is correct for  Mina@mallie.name 
+2021-05-28 20:01:40,141 INFO  [Log] Email format is correct for  Hudson.Blick@ruben.biz 
+2021-05-28 20:01:40,144 INFO  [Log] Email format is correct for  Domenic.Durgan@joaquin.name 
+2021-05-28 20:01:40,147 INFO  [Log] Email format is correct for  Alexie@alayna.org 
+2021-05-28 20:01:40,152 INFO  [Log] Email format is correct for  Haven_Barrows@brant.org 
+2021-05-28 20:01:40,159 INFO  [Log] Email format is correct for  Marianne@maximo.us 
+2021-05-28 20:01:40,163 INFO  [Log] Email format is correct for  Fanny@danial.com 
+2021-05-28 20:01:40,166 INFO  [Log] Email format is correct for  Trevion_Kuphal@bernice.name 
+2021-05-28 20:01:40,174 INFO  [Log] Email format is correct for  Emmet@guy.biz 
+2021-05-28 20:01:40,178 INFO  [Log] Email format is correct for  Megane.Fritsch@claude.name 
+2021-05-28 20:01:40,185 INFO  [Log] Email format is correct for  Amya@durward.ca 
+2021-05-28 20:01:40,189 INFO  [Log] Email format is correct for  Jasen_Rempel@willis.org 
+2021-05-28 20:01:40,196 INFO  [Log] Email format is correct for  Harmony@reggie.com 
+2021-05-28 20:01:40,204 INFO  [Log] Email format is correct for  Rosanna_Kunze@guy.net 
+2021-05-28 20:01:40,214 INFO  [Log] Email format is correct for  Ressie.Boehm@flossie.com 
+2021-05-28 20:01:40,219 INFO  [Log] Email format is correct for  Domenic.Wuckert@jazmyne.us 
+2021-05-28 20:01:40,225 INFO  [Log] Email format is correct for  Rhett.OKon@brian.info 
+2021-05-28 20:01:40,229 INFO  [Log] Email format is correct for  Mathias@richmond.info 
+2021-05-28 20:01:40,232 INFO  [Log] Email format is correct for  Ottis@lourdes.org 
+2021-05-28 20:01:40,235 INFO  [Log] Email format is correct for  Estel@newton.ca 
+2021-05-28 20:01:40,238 INFO  [Log] Email format is correct for  Bertha@erik.co.uk 
+2021-05-28 20:01:40,241 INFO  [Log] Email format is correct for  Joesph@matteo.info 
+2021-05-28 20:01:40,247 INFO  [Log] Email format is correct for  Alva@cassandre.net 
+2021-05-28 20:01:40,253 INFO  [Log] Email format is correct for  Vivienne@willis.org 
+2021-05-28 20:01:40,258 INFO  [Log] Email format is correct for  Angelita@aliza.me 
+2021-05-28 20:01:40,262 INFO  [Log] Email format is correct for  Timmothy_Okuneva@alyce.tv 
+2021-05-28 20:01:40,265 INFO  [Log] Email format is correct for  Moriah_Welch@richmond.org 
+2021-05-28 20:01:40,270 INFO  [Log] Email format is correct for  Ramiro_Kuhn@harmon.biz 
+2021-05-28 20:01:40,275 INFO  [Log] Email format is correct for  Lura@rod.tv 
+2021-05-28 20:01:40,278 INFO  [Log] Email format is correct for  Lottie.Zieme@ruben.us 
+2021-05-28 20:01:40,281 INFO  [Log] Email format is correct for  Winona_Price@jevon.me 
+2021-05-28 20:01:40,284 INFO  [Log] Email format is correct for  Gabriel@oceane.biz 
+2021-05-28 20:01:40,290 INFO  [Log] Email format is correct for  Adolph.Ondricka@mozell.co.uk 
+2021-05-28 20:01:40,306 INFO  [Log] Creating post resquest 
+2021-05-28 20:01:40,312 INFO  [Log] Am sending hard coded  PostId as i do not have any user with Zero posts 
+2021-05-28 20:01:40,326 INFO  [Log] Getting the GetPost APIResponse 
+2021-05-28 20:01:40,330 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:40,333 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:41,064 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 20:01:41,067 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 20:01:41,082 INFO  [Log] Verifying that for invalid user search, result should be an empty array  
+2021-05-28 20:01:41,091 INFO  [Log] Creating  payload for  Api using getuser_payload method  
+2021-05-28 20:01:41,094 INFO  [Log] Starting the scenario 
+2021-05-28 20:01:41,099 INFO  [Log] Creating request with query param 
+2021-05-28 20:01:41,118 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:41,126 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:41,338 INFO  [Log] Verify user should not be null and should be  alphabets 
+2021-05-28 20:01:41,341 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 20:01:41,344 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 20:01:41,351 INFO  [Log] Getting userId from userDetails  APIResponse using pojo class  
+2021-05-28 20:01:41,356 INFO  [Log] Creating post resquest 
+2021-05-28 20:01:41,363 INFO  [Log] Getting the GetPost APIResponse 
+2021-05-28 20:01:41,365 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 20:01:41,369 INFO  [Log] Extracting response using GET request 
+2021-05-28 20:01:41,596 INFO  [Log] Getting Posts for the given User using pojo class  
+2021-05-28 20:01:41,600 INFO  [Log] Verifying that all the  posts displayed are  written by the searched User  
+2021-05-28 20:01:41,603 INFO  [Log] Getting comments from  api response using pojo class  
+2021-05-28 20:01:42,329 INFO  [Log] Verifying that for invalid user search, result should be an empty array  
+2021-05-28 21:47:19,022 INFO  [Log] Starting the scenario 
+2021-05-28 21:47:19,043 INFO  [Log] Creating request with query param 
+2021-05-28 21:47:19,883 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:19,890 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:21,865 INFO  [Log] Verify user should not be null and should be  alphabets 
+2021-05-28 21:47:21,875 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 21:47:21,884 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 21:47:22,280 INFO  [Log] Verifying that for invalid user search, result should be an empty array  
+2021-05-28 21:47:22,298 INFO  [Log] Creating  payload for  Api using getuser_payload method  
+2021-05-28 21:47:22,304 INFO  [Log] Starting the scenario 
+2021-05-28 21:47:22,310 INFO  [Log] Creating request with query param 
+2021-05-28 21:47:22,319 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:22,324 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:22,941 INFO  [Log] Verify user should not be null and should be  alphabets 
+2021-05-28 21:47:22,950 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 21:47:22,958 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 21:47:22,973 INFO  [Log] Getting userId from userDetails  APIResponse using pojo class  
+2021-05-28 21:47:22,981 INFO  [Log] Creating post resquest 
+2021-05-28 21:47:22,990 INFO  [Log] Getting the GetPost APIResponse 
+2021-05-28 21:47:22,996 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:23,005 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:23,659 INFO  [Log] Getting Posts for the given User using pojo class  
+2021-05-28 21:47:23,667 INFO  [Log] Verifying that all the  posts displayed are  written by the searched User  
+2021-05-28 21:47:23,671 INFO  [Log] Creating a Hash Map to store the comments related to the Posts Id  
+2021-05-28 21:47:23,676 INFO  [Log] Getting Posts for the given User using pojo class  
+2021-05-28 21:47:23,684 INFO  [Log] Adding comments to Map for all posts by a user through the Comment APT Request and response request  
+2021-05-28 21:47:23,690 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:23,694 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:24,423 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:24,428 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:25,065 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:25,071 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:25,715 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:25,720 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:26,643 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:26,647 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:27,261 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:27,264 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:27,882 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:27,885 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:28,467 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:28,471 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:29,050 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:29,054 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:29,676 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:29,679 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:30,259 INFO  [Log] Validating that the PostId in comments response is equal to the PostId sent in request 
+2021-05-28 21:47:30,262 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,265 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,269 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,272 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,276 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,279 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,282 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,285 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,289 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,294 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,297 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,300 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,303 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,308 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,313 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,317 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,321 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,326 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,329 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,332 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,340 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,346 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,351 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,354 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,363 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,366 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,373 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,380 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,385 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,395 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,405 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,410 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,413 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,417 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,419 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,423 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,426 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,430 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,433 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,437 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,439 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,443 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,447 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,450 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,453 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,455 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,459 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,463 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,469 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,472 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:47:30,476 INFO  [Log] Email format is correct for  Allen@richard.biz 
+2021-05-28 21:47:30,481 INFO  [Log] Email format is correct for  Nicholaus@mikayla.ca 
+2021-05-28 21:47:30,484 INFO  [Log] Email format is correct for  Kayla@susanna.org 
+2021-05-28 21:47:30,487 INFO  [Log] Email format is correct for  Gideon@amina.name 
+2021-05-28 21:47:30,489 INFO  [Log] Email format is correct for  Cassidy@maribel.io 
+2021-05-28 21:47:30,496 INFO  [Log] Email format is correct for  Stefan.Crist@duane.ca 
+2021-05-28 21:47:30,501 INFO  [Log] Email format is correct for  Aniyah.Ortiz@monte.me 
+2021-05-28 21:47:30,507 INFO  [Log] Email format is correct for  Laverna@rico.biz 
+2021-05-28 21:47:30,510 INFO  [Log] Email format is correct for  Derek@hildegard.net 
+2021-05-28 21:47:30,517 INFO  [Log] Email format is correct for  Tyrell@abdullah.ca 
+2021-05-28 21:47:30,520 INFO  [Log] Email format is correct for  Reyes@hailey.name 
+2021-05-28 21:47:30,565 INFO  [Log] Email format is correct for  Danika.Dicki@mekhi.biz 
+2021-05-28 21:47:30,573 INFO  [Log] Email format is correct for  Alessandra.Nitzsche@stephania.us 
+2021-05-28 21:47:30,576 INFO  [Log] Email format is correct for  Matteo@marquis.net 
+2021-05-28 21:47:30,579 INFO  [Log] Email format is correct for  Joshua.Spinka@toby.io 
+2021-05-28 21:47:30,585 INFO  [Log] Email format is correct for  Annabelle@cole.com 
+2021-05-28 21:47:30,591 INFO  [Log] Email format is correct for  Kacey@jamal.info 
+2021-05-28 21:47:30,594 INFO  [Log] Email format is correct for  Mina@mallie.name 
+2021-05-28 21:47:30,598 INFO  [Log] Email format is correct for  Hudson.Blick@ruben.biz 
+2021-05-28 21:47:30,600 INFO  [Log] Email format is correct for  Domenic.Durgan@joaquin.name 
+2021-05-28 21:47:30,603 INFO  [Log] Email format is correct for  Alexie@alayna.org 
+2021-05-28 21:47:30,606 INFO  [Log] Email format is correct for  Haven_Barrows@brant.org 
+2021-05-28 21:47:30,608 INFO  [Log] Email format is correct for  Marianne@maximo.us 
+2021-05-28 21:47:30,612 INFO  [Log] Email format is correct for  Fanny@danial.com 
+2021-05-28 21:47:30,616 INFO  [Log] Email format is correct for  Trevion_Kuphal@bernice.name 
+2021-05-28 21:47:30,618 INFO  [Log] Email format is correct for  Emmet@guy.biz 
+2021-05-28 21:47:30,620 INFO  [Log] Email format is correct for  Megane.Fritsch@claude.name 
+2021-05-28 21:47:30,623 INFO  [Log] Email format is correct for  Amya@durward.ca 
+2021-05-28 21:47:30,626 INFO  [Log] Email format is correct for  Jasen_Rempel@willis.org 
+2021-05-28 21:47:30,628 INFO  [Log] Email format is correct for  Harmony@reggie.com 
+2021-05-28 21:47:30,635 INFO  [Log] Email format is correct for  Rosanna_Kunze@guy.net 
+2021-05-28 21:47:30,646 INFO  [Log] Email format is correct for  Ressie.Boehm@flossie.com 
+2021-05-28 21:47:30,649 INFO  [Log] Email format is correct for  Domenic.Wuckert@jazmyne.us 
+2021-05-28 21:47:30,653 INFO  [Log] Email format is correct for  Rhett.OKon@brian.info 
+2021-05-28 21:47:30,668 INFO  [Log] Email format is correct for  Mathias@richmond.info 
+2021-05-28 21:47:30,670 INFO  [Log] Email format is correct for  Ottis@lourdes.org 
+2021-05-28 21:47:30,673 INFO  [Log] Email format is correct for  Estel@newton.ca 
+2021-05-28 21:47:30,677 INFO  [Log] Email format is correct for  Bertha@erik.co.uk 
+2021-05-28 21:47:30,679 INFO  [Log] Email format is correct for  Joesph@matteo.info 
+2021-05-28 21:47:30,683 INFO  [Log] Email format is correct for  Alva@cassandre.net 
+2021-05-28 21:47:30,690 INFO  [Log] Email format is correct for  Vivienne@willis.org 
+2021-05-28 21:47:30,695 INFO  [Log] Email format is correct for  Angelita@aliza.me 
+2021-05-28 21:47:30,722 INFO  [Log] Email format is correct for  Timmothy_Okuneva@alyce.tv 
+2021-05-28 21:47:30,725 INFO  [Log] Email format is correct for  Moriah_Welch@richmond.org 
+2021-05-28 21:47:30,728 INFO  [Log] Email format is correct for  Ramiro_Kuhn@harmon.biz 
+2021-05-28 21:47:30,731 INFO  [Log] Email format is correct for  Lura@rod.tv 
+2021-05-28 21:47:30,736 INFO  [Log] Email format is correct for  Lottie.Zieme@ruben.us 
+2021-05-28 21:47:30,740 INFO  [Log] Email format is correct for  Winona_Price@jevon.me 
+2021-05-28 21:47:30,742 INFO  [Log] Email format is correct for  Gabriel@oceane.biz 
+2021-05-28 21:47:30,745 INFO  [Log] Email format is correct for  Adolph.Ondricka@mozell.co.uk 
+2021-05-28 21:47:30,774 INFO  [Log] Creating post resquest 
+2021-05-28 21:47:30,776 INFO  [Log] Am sending hard coded  PostId as i do not have any user with Zero posts 
+2021-05-28 21:47:30,781 INFO  [Log] Getting the GetPost APIResponse 
+2021-05-28 21:47:30,786 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:30,791 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:31,018 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 21:47:31,021 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 21:47:31,027 INFO  [Log] Verifying that for invalid user search, result should be an empty array  
+2021-05-28 21:47:31,035 INFO  [Log] Creating  payload for  Api using getuser_payload method  
+2021-05-28 21:47:31,038 INFO  [Log] Starting the scenario 
+2021-05-28 21:47:31,041 INFO  [Log] Creating request with query param 
+2021-05-28 21:47:31,047 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:31,050 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:31,265 INFO  [Log] Verify user should not be null and should be  alphabets 
+2021-05-28 21:47:31,269 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 21:47:31,272 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 21:47:31,279 INFO  [Log] Getting userId from userDetails  APIResponse using pojo class  
+2021-05-28 21:47:31,285 INFO  [Log] Creating post resquest 
+2021-05-28 21:47:31,293 INFO  [Log] Getting the GetPost APIResponse 
+2021-05-28 21:47:31,296 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:47:31,299 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:47:31,526 INFO  [Log] Getting Posts for the given User using pojo class  
+2021-05-28 21:47:31,530 INFO  [Log] Verifying that all the  posts displayed are  written by the searched User  
+2021-05-28 21:47:31,532 INFO  [Log] Getting comments from  api response using pojo class  
+2021-05-28 21:47:32,193 INFO  [Log] Verifying that for invalid user search, result should be an empty array  
+2021-05-28 21:50:53,663 INFO  [Log] Starting the scenario 
+2021-05-28 21:50:53,675 INFO  [Log] Creating request with query param 
+2021-05-28 21:50:54,478 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:50:54,485 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:50:56,476 INFO  [Log] Verify user should not be null and should be  alphabets 
+2021-05-28 21:50:56,485 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 21:50:56,493 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 21:50:56,958 INFO  [Log] Verifying that for invalid user search, result should be an empty array  
+2021-05-28 21:50:56,989 INFO  [Log] Creating  payload for  Api using getuser_payload method  
+2021-05-28 21:50:56,997 INFO  [Log] Starting the scenario 
+2021-05-28 21:50:57,020 INFO  [Log] Creating request with query param 
+2021-05-28 21:50:57,037 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:50:57,044 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:50:57,870 INFO  [Log] Verify user should not be null and should be  alphabets 
+2021-05-28 21:50:57,874 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 21:50:57,880 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 21:50:57,889 INFO  [Log] Getting userId from userDetails  APIResponse using pojo class  
+2021-05-28 21:50:57,896 INFO  [Log] Creating post resquest 
+2021-05-28 21:50:57,903 INFO  [Log] Getting the GetPost APIResponse 
+2021-05-28 21:50:57,908 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:50:57,912 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:50:58,765 INFO  [Log] Getting Posts for the given User using pojo class  
+2021-05-28 21:50:58,773 INFO  [Log] Verifying that all the  posts displayed are  written by the searched User  
+2021-05-28 21:50:58,777 INFO  [Log] Creating a Hash Map to store the comments related to the Posts Id  
+2021-05-28 21:50:58,782 INFO  [Log] Getting Posts for the given User using pojo class  
+2021-05-28 21:50:58,789 INFO  [Log] Adding comments to Map for all posts by a user through the Comment APT Request and response request  
+2021-05-28 21:50:58,795 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:50:58,799 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:50:59,768 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:50:59,772 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:51:00,592 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:51:00,596 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:51:01,437 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:51:01,440 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:51:02,270 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:51:02,274 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:51:03,103 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:51:03,107 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:51:03,912 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:51:03,917 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:51:04,750 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:51:04,754 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:51:05,511 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:51:05,515 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:51:06,328 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:51:06,333 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:51:07,135 INFO  [Log] Validating that the PostId in comments response is equal to the PostId sent in request 
+2021-05-28 21:51:07,138 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,141 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,145 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,148 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,151 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,155 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,158 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,161 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,165 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,168 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,171 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,174 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,177 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,179 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,183 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,187 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,191 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,194 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,197 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,201 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,207 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,210 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,213 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,216 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,219 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,222 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,226 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,229 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,235 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,238 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,251 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,255 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,260 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,275 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,277 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,280 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,283 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,293 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,296 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,299 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,302 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,306 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,310 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,316 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,320 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,347 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,351 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,360 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,364 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,371 INFO  [Log] Comments belongs to the requested Posts 
+2021-05-28 21:51:07,374 INFO  [Log] Email format is correct for  Allen@richard.biz 
+2021-05-28 21:51:07,377 INFO  [Log] Email format is correct for  Nicholaus@mikayla.ca 
+2021-05-28 21:51:07,380 INFO  [Log] Email format is correct for  Kayla@susanna.org 
+2021-05-28 21:51:07,383 INFO  [Log] Email format is correct for  Gideon@amina.name 
+2021-05-28 21:51:07,386 INFO  [Log] Email format is correct for  Cassidy@maribel.io 
+2021-05-28 21:51:07,389 INFO  [Log] Email format is correct for  Stefan.Crist@duane.ca 
+2021-05-28 21:51:07,391 INFO  [Log] Email format is correct for  Aniyah.Ortiz@monte.me 
+2021-05-28 21:51:07,395 INFO  [Log] Email format is correct for  Laverna@rico.biz 
+2021-05-28 21:51:07,403 INFO  [Log] Email format is correct for  Derek@hildegard.net 
+2021-05-28 21:51:07,407 INFO  [Log] Email format is correct for  Tyrell@abdullah.ca 
+2021-05-28 21:51:07,423 INFO  [Log] Email format is correct for  Reyes@hailey.name 
+2021-05-28 21:51:07,427 INFO  [Log] Email format is correct for  Danika.Dicki@mekhi.biz 
+2021-05-28 21:51:07,432 INFO  [Log] Email format is correct for  Alessandra.Nitzsche@stephania.us 
+2021-05-28 21:51:07,443 INFO  [Log] Email format is correct for  Matteo@marquis.net 
+2021-05-28 21:51:07,446 INFO  [Log] Email format is correct for  Joshua.Spinka@toby.io 
+2021-05-28 21:51:07,448 INFO  [Log] Email format is correct for  Annabelle@cole.com 
+2021-05-28 21:51:07,455 INFO  [Log] Email format is correct for  Kacey@jamal.info 
+2021-05-28 21:51:07,458 INFO  [Log] Email format is correct for  Mina@mallie.name 
+2021-05-28 21:51:07,464 INFO  [Log] Email format is correct for  Hudson.Blick@ruben.biz 
+2021-05-28 21:51:07,467 INFO  [Log] Email format is correct for  Domenic.Durgan@joaquin.name 
+2021-05-28 21:51:07,470 INFO  [Log] Email format is correct for  Alexie@alayna.org 
+2021-05-28 21:51:07,473 INFO  [Log] Email format is correct for  Haven_Barrows@brant.org 
+2021-05-28 21:51:07,502 INFO  [Log] Email format is correct for  Marianne@maximo.us 
+2021-05-28 21:51:07,512 INFO  [Log] Email format is correct for  Fanny@danial.com 
+2021-05-28 21:51:07,515 INFO  [Log] Email format is correct for  Trevion_Kuphal@bernice.name 
+2021-05-28 21:51:07,521 INFO  [Log] Email format is correct for  Emmet@guy.biz 
+2021-05-28 21:51:07,525 INFO  [Log] Email format is correct for  Megane.Fritsch@claude.name 
+2021-05-28 21:51:07,527 INFO  [Log] Email format is correct for  Amya@durward.ca 
+2021-05-28 21:51:07,530 INFO  [Log] Email format is correct for  Jasen_Rempel@willis.org 
+2021-05-28 21:51:07,534 INFO  [Log] Email format is correct for  Harmony@reggie.com 
+2021-05-28 21:51:07,537 INFO  [Log] Email format is correct for  Rosanna_Kunze@guy.net 
+2021-05-28 21:51:07,540 INFO  [Log] Email format is correct for  Ressie.Boehm@flossie.com 
+2021-05-28 21:51:07,542 INFO  [Log] Email format is correct for  Domenic.Wuckert@jazmyne.us 
+2021-05-28 21:51:07,545 INFO  [Log] Email format is correct for  Rhett.OKon@brian.info 
+2021-05-28 21:51:07,548 INFO  [Log] Email format is correct for  Mathias@richmond.info 
+2021-05-28 21:51:07,551 INFO  [Log] Email format is correct for  Ottis@lourdes.org 
+2021-05-28 21:51:07,553 INFO  [Log] Email format is correct for  Estel@newton.ca 
+2021-05-28 21:51:07,560 INFO  [Log] Email format is correct for  Bertha@erik.co.uk 
+2021-05-28 21:51:07,563 INFO  [Log] Email format is correct for  Joesph@matteo.info 
+2021-05-28 21:51:07,570 INFO  [Log] Email format is correct for  Alva@cassandre.net 
+2021-05-28 21:51:07,574 INFO  [Log] Email format is correct for  Vivienne@willis.org 
+2021-05-28 21:51:07,580 INFO  [Log] Email format is correct for  Angelita@aliza.me 
+2021-05-28 21:51:07,583 INFO  [Log] Email format is correct for  Timmothy_Okuneva@alyce.tv 
+2021-05-28 21:51:07,586 INFO  [Log] Email format is correct for  Moriah_Welch@richmond.org 
+2021-05-28 21:51:07,589 INFO  [Log] Email format is correct for  Ramiro_Kuhn@harmon.biz 
+2021-05-28 21:51:07,591 INFO  [Log] Email format is correct for  Lura@rod.tv 
+2021-05-28 21:51:07,594 INFO  [Log] Email format is correct for  Lottie.Zieme@ruben.us 
+2021-05-28 21:51:07,596 INFO  [Log] Email format is correct for  Winona_Price@jevon.me 
+2021-05-28 21:51:07,598 INFO  [Log] Email format is correct for  Gabriel@oceane.biz 
+2021-05-28 21:51:07,601 INFO  [Log] Email format is correct for  Adolph.Ondricka@mozell.co.uk 
+2021-05-28 21:51:07,613 INFO  [Log] Creating post resquest 
+2021-05-28 21:51:07,619 INFO  [Log] Am sending hard coded  PostId as i do not have any user with Zero posts 
+2021-05-28 21:51:07,646 INFO  [Log] Getting the GetPost APIResponse 
+2021-05-28 21:51:07,649 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:51:07,656 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:51:08,560 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 21:51:08,564 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 21:51:08,570 INFO  [Log] Verifying that for invalid user search, result should be an empty array  
+2021-05-28 21:51:08,579 INFO  [Log] Creating  payload for  Api using getuser_payload method  
+2021-05-28 21:51:08,583 INFO  [Log] Starting the scenario 
+2021-05-28 21:51:08,586 INFO  [Log] Creating request with query param 
+2021-05-28 21:51:08,591 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:51:08,594 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:51:08,895 INFO  [Log] Verify user should not be null and should be  alphabets 
+2021-05-28 21:51:08,900 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 21:51:08,903 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 21:51:08,910 INFO  [Log] Getting userId from userDetails  APIResponse using pojo class  
+2021-05-28 21:51:08,915 INFO  [Log] Creating post resquest 
+2021-05-28 21:51:08,923 INFO  [Log] Getting the GetPost APIResponse 
+2021-05-28 21:51:08,926 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 21:51:08,929 INFO  [Log] Extracting response using GET request 
+2021-05-28 21:51:09,280 INFO  [Log] Getting Posts for the given User using pojo class  
+2021-05-28 21:51:09,284 INFO  [Log] Verifying that all the  posts displayed are  written by the searched User  
+2021-05-28 21:51:09,287 INFO  [Log] Getting comments from  api response using pojo class  
+2021-05-28 21:51:10,058 INFO  [Log] Verifying that for invalid user search, result should be an empty array  
+2021-05-28 22:04:46,904 INFO  [Log] Starting the scenario 
+2021-05-28 22:04:46,919 INFO  [Log] Creating request with query param 
+2021-05-28 22:04:47,717 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 22:04:47,725 INFO  [Log] Extracting response using GET request 
+2021-05-28 22:04:48,881 INFO  [Log] Verify user should not be null and should be  alphabets 
+2021-05-28 22:04:48,896 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 22:04:48,906 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 22:04:49,359 INFO  [Log] Verifying that for invalid user search, result should be an empty array  
+2021-05-28 22:04:49,398 INFO  [Log] Creating  payload for  Api using getuser_payload method  
+2021-05-28 22:04:49,411 INFO  [Log] Starting the scenario 
+2021-05-28 22:04:49,586 INFO  [Log] Creating request with query param 
+2021-05-28 22:04:49,595 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 22:04:49,601 INFO  [Log] Extracting response using GET request 
+2021-05-28 22:04:49,789 INFO  [Log] Verify user should not be null and should be  alphabets 
+2021-05-28 22:04:49,794 INFO  [Log] Verifying that the status code should be 200 
+2021-05-28 22:04:49,801 INFO  [Log] Getting user details from  api response using pojo class  
+2021-05-28 22:04:49,813 INFO  [Log] Getting userId from userDetails  APIResponse using pojo class  
+2021-05-28 22:04:49,821 INFO  [Log] Creating post resquest 
+2021-05-28 22:04:49,829 INFO  [Log] Getting the GetPost APIResponse 
+2021-05-28 22:04:49,833 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 22:04:49,837 INFO  [Log] Extracting response using GET request 
+2021-05-28 22:04:50,126 INFO  [Log] Getting Posts for the given User using pojo class  
+2021-05-28 22:04:50,156 INFO  [Log] Verifying that all the  posts displayed are  written by the searched User  
+2021-05-28 22:04:50,194 INFO  [Log] Creating a Hash Map to store the comments related to the Posts Id  
+2021-05-28 22:04:50,206 INFO  [Log] Getting Posts for the given User using pojo class  
+2021-05-28 22:04:50,230 INFO  [Log] Adding comments to Map for all posts by a user through the Comment APT Request and response request  
+2021-05-28 22:04:50,239 INFO  [Log] Getting the resource path from enum ResourcePath 
+2021-05-28 22:04:50,244 INFO  [Log] Extracting response using GET request 
