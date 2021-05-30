@@ -96,7 +96,7 @@ public class UserBlogStep extends Utils {
 	public void i_validate_that_the_details_of_user_are_correctly_matched() {
 
 		Log.info("Getting user details from  api response using pojo class ");
-		userDetails = response.as(UserDetail[].class);
+		 userDetails = response.as(UserDetail[].class);
 
 		value = userDetails[0].getId();
 
@@ -112,6 +112,7 @@ public class UserBlogStep extends Utils {
 
 		Log.info("Creating post resquest");
 		resquestSpec = getRequestSpec("userId", userDetails[0].getId());
+		System.out.println("userId" +"  "+ userDetails[0].getId());
 
 	}
 

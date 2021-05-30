@@ -2,33 +2,48 @@ package com.freenow.ste.cc.resources;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.util.Properties;
 import static io.restassured.RestAssured.*;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class Utils {
-	private RequestSpecification request;
-	private RequestSpecification resquestSpec;
-	private Response response;
+	 RequestSpecification request;
+	 RequestSpecification resquestSpec;
+	 Response response;
 	
-	public RequestSpecification requestSpecification()  {
+	public  RequestSpecification requestSpecification() {
 
 		if (request == null) {
 			
-			request = new RequestSpecBuilder().setBaseUri(getGlobalvalue("baseURl"))
+			
+			
+				PrintStream log;
+				try {
+					log = new PrintStream(new FileOutputStream("logging.txt"));
+				
+			
+		
+			request = new RequestSpecBuilder().setBaseUri(getGlobalvalue("baseURl")).addFilter(RequestLoggingFilter.logRequestTo(log))
 					.build();
 			
 			return request;
+				} catch (FileNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 		}
 
 		return request;
 	}
 
-	public static String getGlobalvalue(String key) {
+	public  String getGlobalvalue(String key) {
 		Properties prop = new Properties();
 		FileInputStream fis;
 		try {
@@ -49,12 +64,12 @@ public class Utils {
 
 	}
 
-	public static String getJsonValueOfKey(Response response, String key) {
-
-		JsonPath js = new JsonPath(response.asString());
-
-		return js.get(key).toString();
-	}
+//	public static String getJsonValueOfKey(Response response, String key) {
+//
+//		JsonPath js = new JsonPath(response.asString());
+//
+//		return js.get(key).toString();
+//	}
 
 	/**
 	 * Trigger get request Accept two parameter: key, value Return the
